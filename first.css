@@ -1,0 +1,16 @@
+body {
+    background-color: #434A59;
+}
+
+header {
+    letter-spacing: 2px;
+    padding: 20px;
+    background: peachpuff;
+    text-align: center;
+}
+
+.description {
+    font-size: 10px;
+    margin-top: 200px;
+    text-align: center;
+}
