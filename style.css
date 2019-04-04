@@ -5,23 +5,25 @@
 }
 
 body {
-    background-color: #434A59;
+    background-color: #434A59 ;
 }
 
 header {
     font-family: 'Staatliches', cursive;
     letter-spacing: 2px;
     font-size: 100px;
-    background: peachpuff;
+    background: lightblue;
     padding: 20px;
 }
 
 
 .scoreboard {
-    margin: 40px auto;
+    background-color: peachpuff;
+    margin-top: 75px;
+    margin-left: 350px;
     border: 3px solid white;
-    width: 800px;
-    height: 200px;
+    width: 1000px;
+    height: 700px;
     /*text-align: center;*/
     /*align-content: center;*/
     /*align-items:center;*/
@@ -40,21 +42,39 @@ header {
     border-radius: 50%;
     display: inline-block;
     transition: all 1s ease;
-    padding: 20px;
+    border
+    padding: 400px;
     opacity: .9;
-    background: no-repeat center center/auto 20px;
-    margin: 30px 20px;
+    background: no-repeat center center/auto 10px;
+    margin: 400px 60px;
 }
 
 .choice:hover {
-    color: white;
-    box-shadow: inset 300px 0 0 rgba(225, 225, 225, 0.7);
     text-shadow: 0 0 4px white;
-    filter: drop-shadow(0 0 2px white);
-    transition: 1.5s;
     opacity: 1;
+    transform: scale(1.2);
 }
 
+#rock {
+    background-color:lightpink;
+    padding:30px;
+    border:3px solid white;
+    size: 30px;
+}
+
+#paper {
+    background-color:lightpink;
+    padding:30px;
+    border:3px solid white;
+    size: 30px;
+}
+
+#scissor {
+    background-color:lightpink;
+    padding:30px;
+    border:3px solid white;
+    size: 30px;
+}
 
 .id {
     font-family: "Apple Symbols";
@@ -76,7 +96,7 @@ header > h1 {
 }
 
 .option {
-    margin-top: -50px;
+    margin-top: 50px;
     text-align: center;
 }
 
